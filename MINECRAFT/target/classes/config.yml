@@ -1,0 +1,12 @@
+fill-material: DIAMOND_BLOCK
+cooldown-ms: 5000
+max-depth: 60
+max-height: 15  # أقصى ارتفاع للبناء لأعلى (يمكن تغييره حسب الحاجة)
+max-column-height: 256  # المسافة العالية للبناء لفوق عند الدوس من تحت (256 = عمود كامل حتى السماء!)
+fill-radius: 3  # نصف قطر ملء الفراغات (3 = منطقة 7x7, 5 = منطقة 11x11)
+remove-build-distance-limit: true  # إزالة قيد المسافة في البناء - البناء من أي ارتفاع
+advanced-building: true  # تفعيل البناء المتقدم باستخدام right-click في الهواء
+refill-contents:
+  - DIAMOND:8
+  - GOLD_INGOT:32
+  - EMERALD:16

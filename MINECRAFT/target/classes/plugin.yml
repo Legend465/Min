@@ -1,0 +1,17 @@
+name: AreaBuilder
+main: me.ali.minecraft.Main
+version: 1.0
+api-version: 1.20
+commands:
+  area:
+    description: إدارة المناطق (حديد، ذهب، زمرد، الماس)
+    usage: |
+      /area pos1 - تحديد النقطة الأولى
+      /area pos2 - تحديد النقطة الثانية
+      /area create <iron|gold|emerald|diamond> - إنشاء منطقة
+      /area list - عرض المناطق
+      /area delete <اسم> - حذف منطقة
+permissions:
+  areabuilder.unlimited-reach:
+    description: السماح بالبناء من أي ارتفاع بدون قيود
+    default: op
